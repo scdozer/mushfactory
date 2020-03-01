@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>mushfactory</title>
+	<meta name="description" content="An exploration of audio visualizers powered by p5.js. Music by the mushfactory" />
+	<meta name="keywords" content="visualizers, audio, javascript, upload, music, line, web design" />
+	<meta name="author" content="Codrops" />
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<script>
+		document.documentElement.className = 'js';
+	</script>
+</head>
+
+<body class="demo-1">
+	<main class="site-wrapper">
+		<header class="codrops-header">
+			<h1 class="codrops-header__title">mushfactory - mixtape</h1>
+			<nav class="demos">
+				<a class="demo" href="index.html">track 1</a>
+				<a class="demo demo--current" href="track2.html">track 2</a>
+				<a class="demo" href="track3.html">track 3</a>
+				<a class="demo" href="track4.html">track 4</a>
+				<a class="demo" href="track5.html">track 5</a>
+				<a class="demo" href="track6.html">track 6</a>
+			</nav>
+		</header>
+		<div class="content main">
+			<div class="canvas-wrapper">
+				<div id="p5_loading" class="p5_loading">
+					<div class="p5_loading__inner">
+						<span></span>
+					</div>
+				</div>
+				<div id="uploading-animation" class="p5_loading">
+					<div class="p5_loading__inner">
+						<span></span>
+					</div>
+				</div>
+				<canvas id="webglcanvas"></canvas>
+			</div>
+		</div>
+	</main>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/p5.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/addons/p5.dom.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/addons/p5.sound.min.js"></script>
+	<script src="js/track2.js"></script>
+</body>
+
+</html>
