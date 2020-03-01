@@ -36,9 +36,9 @@ function setup() {
 
     toggleBtn = createButton("Play / Pause");
 
-    uploadBtn = createFileInput(uploaded);
+    // uploadBtn = createFileInput(uploaded);
 
-    uploadBtn.addClass("upload-btn");
+    // uploadBtn.addClass("upload-btn");
     
     toggleBtn.addClass("toggle-btn");
 
